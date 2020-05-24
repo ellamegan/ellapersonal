@@ -14,7 +14,7 @@ background: radial-gradient(circle, rgba(28,70,162,1) 0%, rgba(105,125,171,1) 0%
 
 h2 {
   font-family: "Roboto", sans-serif;
-  font-size: 2.5vw;
+  font-size: 3vw;
   color: black;
   font-weight: 100;
   padding:7px ;
@@ -22,7 +22,7 @@ h2 {
 }
 h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 2.5vw;
+  font-size: 1.7vw;
   color: black;
   font-weight: 100;
   padding: 7px ;
@@ -36,15 +36,16 @@ h4 {
 }
 h5 {
 	font-family: "Roboto", sans-serif;
-	font-size: 1vw;
+	font-size: 1.5vw;
 	font-weight: 100;
 	padding-right: 50px ;
+	padding-top: 10px ;
 	text-align: left;
 	line-height: 1.6 ;
 }
 h6 {
 	font-family: "Roboto", sans-serif;
-	font-size: 0.5vw;
+	font-size: 0.7vw;
 	font-weight: 100;
 	padding-right: 100px ;
 	padding-left: 100px ;
@@ -53,17 +54,19 @@ h6 {
 }
 h7 {
 	font-family: "Roboto", sans-serif;
-	font-size: 1vw;
+	font-size: 1.7vw;
 	font-weight: 100;
 	text-align: left;
 	line-height: 2 ;
 }
+
 img {
 	width: 100%;		
 }
 video {
 	width: 100%;
 }
+
 a:link {
   color: black;
   text-decoration: none;
