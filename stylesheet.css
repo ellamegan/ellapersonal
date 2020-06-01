@@ -6,8 +6,7 @@ body {
   font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
-	background: rgb(28,70,162);
-background: radial-gradient(circle, rgba(28,70,162,1) 0%, rgba(105,125,171,1) 0%, rgba(242,242,242,1) 64%, rgba(236,236,236,1) 100%);
+	background: rgb(220, 220, 220);
   background-attachment: fixed;
   background-position: left; 
 }
