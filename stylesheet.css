@@ -76,7 +76,7 @@ a:visited {
 }
 
 .nav-list {
-  	padding-top: 50px;
+  	margin: 50px;
   	height: 100%;
 	width: 35%;
 	position: fixed;
@@ -101,8 +101,8 @@ a:visited {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px;
-	padding-bottom: 50px;
+	margin: 20px;
+	margin-bottom: 50px;
 }
 
 .work-page-wrapper {
@@ -136,7 +136,7 @@ a:visited {
 	width: 50%;
 	height: auto;
 	overflow: auto;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -147,9 +147,8 @@ a:visited {
 	.image-wrapper {
 		width: 90%;
 		height: 5000px;
-		padding: 0;
 		overflow: initial;
-		padding-bottom: 50px;
+		margin-bottom: 100px;
 	}
 	.text-wrapper {
 		width: 100%;
@@ -158,5 +157,5 @@ a:visited {
 		flex-direction: column;
 		align-items: center;
 		overflow: auto;
-		padding-bottom: 200px;		
+		margin-bottom: 200px;		
 	}
