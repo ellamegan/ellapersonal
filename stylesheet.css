@@ -164,6 +164,7 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
 	.page-container {
+		width: 100%;
 		flex-direction: column;
 		align-items: center;
 	}
