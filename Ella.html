@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ella</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <title>Ella Staines</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://use.typekit.net/gsf6qtb.css">
+	  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
 	  
 	  <div class='header'>
-	  	<a href='./Ella.html' style='text-align: left'>ELLA STAINES</a>
-		<a href='./index.html' style='text-align: center'>WORK</a>
-		<a href="mailto:ellamegan71@gmail.com" style='text-align: right'>EMAIL</a>
-		  <a href= "https://www.instagram.com/el.staines/" target= "_blank" >INSTAGRAM</a>
+		<a href='./Ella.html' style='text-align: left'><span>ABOUT</span></a>
+		<a href='./index.html' style='text-align: right'><span>WORK</span></a>
+		<a href='./contact.html' style='text-align: centre'><span>CONTACT</span></a>
 	  </div>
 	  
-	  <div class="page-container" >  
+	  <div class="intro-container" >  
 		  <div class='ella-page-wrapper'>
-			  <h2>
-	Based in London, I am a visually led creative. I have a keen focus on editorial layout, art direction, graphic design and print. My ethos is to fulfil tasks with an optimistic, experimental and adventurous approach. For more information, please don't hesitate to ask via email :)
-			  </h2>
-			  <br><br>
-				<div class="boxes"> 
+			  <h2> Graphic Designer & <br> Visual Communicator </h2>
+			  	
+			  <div class="boxes"> 
 					<div> 
-						<h6>TWO BIRD BRANDING <br> Junior Graphic Designer. <br> Marlow, October 2020 - CURRENT 
-						<br><br>
-						CORONAUNITY	<br> Lead Graphic Designer. <br> Staying home, March 2020 - August 2020 
-							<br><br>
-							CENTRESPACE GALLERY <br> Volunteered to help promote, set up and invigilate exhibitions. 
-							<br> Bristol, May 2019 - March 2020
-						<br><br>
-							MEDIACOM <br> Global Design Intern. <br> London, August 2019
-						<br><br>
-							KNOMO <br> Assistant Creative Producer. <br> London, August 2018
-						<br><br>
-							OTHERWAY <br> Rebranding and Communication Work Experience. <br> London, October 2016
-						</h6> 
-					</div>    
-				<div> 
-					<h7>
-						EMAIL
-						<br>
-						- ellamegan71@gmail.com 
-						<br>
-						INSTAGRAM
-						<br><a href= "https://www.instagram.com/el.staines" target= "_blank">- @el.staines</a>
-					</h7>
-				</div> 
+				<img src="images/IMG_6161.jpg" style="width:170px;height:240px;"/>
+					</div>
+				</div>
+			  	
+			  			  	<div class="text-colour"> 
+			<button id= "color"></button>
+	  		<script>
+				document.getElementById('color').onclick = changeColor; 
+				var currentColor = "black";
+				function changeColor() { 
+        if(currentColor == "black"){ 
+           document.body.style.color = "Blue";
+           currentColor = "Blue";
+        } else {
+           document.body.style.color = "black";
+           currentColor = "black";
+        } 
+    	}
+	  		</script>
+			  	</div>
+			  
+			  <hr>
+		  </div>
+	  
+		  <div class="page-container"> 
+			  <h3>Based near London, I am a visually led creative. I have a keen focus on editorial layout, art direction, graphic design and print. My ethos is to fulfil tasks with an optimistic, experimental and adventurous approach. For more information, please don't hesitate to ask via email! <br><br>
+			  2021, Ella Staines</h3>
+		  </div>
+	  </div>
+	  
   </body>
 </html>
