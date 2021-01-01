@@ -159,7 +159,7 @@ a:hover {
     width:15px;
     height:15px;
     border: 2px solid Blue;
-    border-radius: 50%;
+    border-radius: 100%;
     background: white;
 }
 
@@ -200,4 +200,13 @@ a:hover {
 	font-weight: 100;
 	line-height: 1.2;
 	margin-right: 20px;
+}
+	
+	#color {
+    display:block;
+    width:15px;
+    height:15px;
+    border: 2px solid Blue;
+    border-radius: 100%;
+    background: white;
 }
