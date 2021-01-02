@@ -98,7 +98,7 @@ a:visited {
 	justify-content: space-between;
 	align-items: center;
 	margin: 20px;
-	margin-bottom: 0px;
+	margin-bottom: 50px;
 }
 
 .work-page-wrapper {
@@ -108,7 +108,7 @@ a:visited {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	margin-top: 30px;
+
 }
 
 .ella-page-wrapper {
@@ -190,7 +190,7 @@ a:hover {
 		font-family: bely, serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 50px;
+	font-size: 40px;
   	font-weight: 100;
 	line-height: 1.2;
 	text-align: center;
@@ -203,3 +203,15 @@ a:hover {
 	line-height: 1.2;
 	margin-right: 20px;
 	}
+	
+	h3 {
+  font-family: bely, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+  	font-weight: 100;
+	line-height: 1.2;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
