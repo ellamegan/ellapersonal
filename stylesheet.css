@@ -98,7 +98,7 @@ a:visited {
 	justify-content: space-between;
 	align-items: center;
 	margin: 20px;
-	margin-bottom: 25px;
+	margin-bottom: 0px;
 }
 
 .work-page-wrapper {
@@ -171,12 +171,14 @@ a:hover {
 	}
 	.image-wrapper {
 		width: 100%;
+		height: auto;
 		overflow: initial;
-		margin-bottom: 100px;
 	}
+	
 	.text-wrapper {
 		width: 100%;
-		margin-left: 20px;
+		margin-left: 10px;
+ 
 	}
 	.boxes {
 		flex-direction: column;
@@ -188,7 +190,7 @@ a:hover {
 		font-family: bely, serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 57px;
+	font-size: 55px;
   	font-weight: 100;
 	line-height: 1.2;
 	text-align: center;
@@ -196,17 +198,8 @@ a:hover {
 	
 	h4 {
 	font-family: "Manrope", sans-serif;
-	font-size: 17px;
+	font-size: 20px;
 	font-weight: 100;
 	line-height: 1.2;
 	margin-right: 20px;
-}
-	
-	#color {
-    display:block;
-    width:15px;
-    height:15px;
-    border: 2px solid Blue;
-    border-radius: 100%;
-    background: white;
-}
+	}
