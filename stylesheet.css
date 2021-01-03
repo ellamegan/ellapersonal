@@ -111,6 +111,10 @@ a:visited {
 
 }
 
+.intro-container {
+	width: 100%;
+}
+
 .ella-page-wrapper {
 	width: 100%;
 	height: 100%;
@@ -160,8 +164,19 @@ a:hover {
     height:15px;
     border: 2px solid Blue;
     border-radius: 100%;
-    background: white;
+    background: none;
 }
+
+canvas {
+	vertical-align: bottom;
+}
+
+    #canvas1 {
+      position:absolute;    /* Take the element out of the normal document flow */
+      z-index:-1;           /* Place the element behind normal content */
+      top:0;                /* Start at top of viewport */
+      left:0;               /* Start at left edge of viewport */  
+    }
 
 @media only screen and (max-width: 600px) {
 	.page-container {
@@ -215,3 +230,22 @@ a:hover {
 	padding-right: 20px;
 	padding-left: 20px;
 	}
+	
+	body {
+  color: black;
+  font-family: "Manrope", sans-serif;
+  padding: 0;
+  font-size: 13px;
+  margin: 0;
+  background-attachment: fixed;
+  background-position: left; 
+  font-weight: 100;
+	}
+	
+	canvas {
+	display: none;
+}
+
+    #canvas1 {
+      display: none; 
+    }
