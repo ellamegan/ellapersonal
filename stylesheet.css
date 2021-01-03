@@ -164,7 +164,7 @@ a:hover {
     height:15px;
     border: 2px solid Blue;
     border-radius: 100%;
-    background: none;
+    background: blue;
 }
 
 canvas {
