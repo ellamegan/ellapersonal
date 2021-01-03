@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ella Staines</title>
+   	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://use.typekit.net/gsf6qtb.css">
+	  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+	
+  <body>
+	  
+	  <canvas id="canvas1"></canvas>
+		<script src="drawer.js"></script>
+	  
+	  <div class='header'>
+	  	<a href='./Ella.html' style='text-align: left'><span>ABOUT</span></a>
+		<a href='./index.html' style='text-align: right'><span>WORK</span></a>
+		<a href='./Contact.html' style='text-align: center'><span>CONTACT</span></a>
+	  </div>
+	  
+	  <div class="intro-container" >  
+		  <div class='ella-page-wrapper'>
+			   <h2><a href="mailto:ellamegan71@gmail.com"><i>( Email )</i></a><br>
+				   <a href="https://www.instagram.com/el.staines/" target= "_blank"><i>( Instagram )</i></a></h2>
+			  
+			  <div class="boxes"> 
+					<div> 
+				<img src="images/Christmas2.jpg" style="width:170px;height:240px;"/>
+					</div>
+				</div>
+			
+			  	<div class="text-colour"> 
+			<button id= "color"></button>
+	  		<script>
+				document.getElementById('color').onclick = changeColor; 
+				var currentColor = "black";
+				function changeColor() { 
+        if(currentColor == "black"){ 
+           document.body.style.color = "Blue";
+           currentColor = "Blue";
+        } else {
+           document.body.style.color = "black";
+           currentColor = "black";
+        } 
+    	}
+	  		</script>
+			  	</div>
+			  		
+			  <hr>
+		  </div>
+		  <h3>2021, Ella Staines</h3>
+	  </div>
+	  
+	  
+  </body>
+</html>
+
+
+
