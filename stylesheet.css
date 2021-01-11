@@ -159,12 +159,13 @@ a:hover {
 }
 
 #color {
+	position: relative;
     display:block;
     width:15px;
     height:15px;
     border: 2px solid Blue;
-    border-radius: 100%;
-    background: blue;
+    border-radius: 50%;
+    background: white;
 }
 
 canvas {
