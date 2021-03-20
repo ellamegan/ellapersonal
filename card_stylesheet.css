@@ -1,0 +1,9 @@
+body{
+	display: flex;
+	justify-content:center;
+	perspective: 800px;
+}
+
+.card{
+	transform: rotateX(20deg) rotateY(20deg);
+}

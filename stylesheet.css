@@ -167,6 +167,12 @@ a:hover {
     background: none;
 }
 
+.card{
+	display: flex;
+	justify-content:center;
+	perspective: 800px;
+}
+
 canvas {
 	vertical-align: bottom;
 }
