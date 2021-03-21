@@ -165,6 +165,7 @@ a:hover {
     border: 2px solid Blue;
     border-radius: 100%;
     background: none;
+	padding: 0px;
 }
 
 .card{
@@ -255,3 +256,5 @@ canvas {
     #canvas1 {
       display: none; 
     }
+	
+	
