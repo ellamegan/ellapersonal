@@ -12,6 +12,40 @@ body {
   font-weight: 100;
 }
 
+@keyframes rotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+div.loading{
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+	background-color: white;
+	z-index: 2;
+	
+	transition: opacity 1s;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.loading img{
+	animation: rotate 4s infinite linear;
+}
+
+div.loading.hidden{
+	opacity: 0;
+	pointer-events: none;
+}
+
 h2 {
   font-family: bely, serif;
 	font-weight: 400;
