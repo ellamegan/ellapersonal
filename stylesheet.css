@@ -130,7 +130,8 @@ a:visited {
 	display: flex;
 	justify-content: flex-end;
 	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-top: 5px;
+
 }
 
 .text-wrapper {
@@ -165,7 +166,6 @@ a:hover {
     border: 2px solid Blue;
     border-radius: 100%;
     background: none;
-	padding: 0px;
 }
 
 .card{
@@ -256,5 +256,15 @@ canvas {
     #canvas1 {
       display: none; 
     }
+	
+	#color {
+    display:block;
+    width:15px;
+    height:15px;
+    border: 2px solid Blue;
+    border-radius: 100%;
+    background: none;
+		padding: 0px;
+}
 	
 	
