@@ -169,6 +169,13 @@ a:visited {
 	align-items: flex-end;
 }
 
+.boxes-contact {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 240px;
+}
+
 .text-colour {
 	display: flex;
 	justify-content: flex-end;
