@@ -90,6 +90,17 @@ h6 {
 	line-height: 1.2 ;
 	text-align: center;
 }
+h7 {
+  	font-family: bely, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+  	font-weight: 100;
+	line-height: 1.2;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
 
 img {
 	width: 100%;		
@@ -213,7 +224,7 @@ a:hover {
     display:block;
     width:15px;
     height:15px;
-    border: 2px solid Blue;
+    border: 2px solid black;
     border-radius: 100%;
     background: none;
 }
@@ -222,6 +233,7 @@ a:hover {
 	display: flex;
 	justify-content:center;
 	perspective: 800px;
+	margin-bottom: 30px;
 }
 
 canvas {
@@ -281,10 +293,22 @@ canvas {
     display:block;
     width:15px;
     height:15px;
-    border: 2px solid Blue;
+    border: 2px solid black;
     border-radius: 100%;
     background: none;
 	padding: 0px;
 	}
+	
+	h7 {
+  	font-family: bely, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+  	font-weight: 100;
+	line-height: 1.2;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
 	
 	
